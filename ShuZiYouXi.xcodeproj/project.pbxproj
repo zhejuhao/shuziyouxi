@@ -14,6 +14,11 @@
 		4E4EE3781BFC792300CB6167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4EE3771BFC792300CB6167 /* Images.xcassets */; };
 		4E4EE37B1BFC792300CB6167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4EE3791BFC792300CB6167 /* LaunchScreen.xib */; };
 		4E4EE3871BFC792300CB6167 /* ShuZiYouXiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4EE3861BFC792300CB6167 /* ShuZiYouXiTests.m */; };
+		4EC2DABD1C05A66A009FA0DA /* Radom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2DABC1C05A66A009FA0DA /* Radom.m */; };
+		4EC2DAC01C05AF8C009FA0DA /* Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2DABF1C05AF8C009FA0DA /* Compare.m */; };
+		4EC2DAC31C05B3AB009FA0DA /* NumberOfGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2DAC21C05B3AB009FA0DA /* NumberOfGame.m */; };
+		4EF641B91C0703C700B58908 /* Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF641B81C0703C700B58908 /* Compare.m */; };
+		4EF641BB1C07069900B58908 /* Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF641BA1C07069900B58908 /* Control.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,14 @@
 		4E4EE3801BFC792300CB6167 /* ShuZiYouXiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuZiYouXiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4EE3851BFC792300CB6167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4EE3861BFC792300CB6167 /* ShuZiYouXiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuZiYouXiTests.m; sourceTree = "<group>"; };
+		4EC2DABB1C05A66A009FA0DA /* Radom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Radom.h; path = ShuZiYouXi/Radom.h; sourceTree = "<group>"; };
+		4EC2DABC1C05A66A009FA0DA /* Radom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Radom.m; path = ShuZiYouXi/Radom.m; sourceTree = "<group>"; };
+		4EC2DABE1C05AF8C009FA0DA /* Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Compare.h; path = ShuZiYouXi/Compare.h; sourceTree = "<group>"; };
+		4EC2DABF1C05AF8C009FA0DA /* Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Compare.m; path = ShuZiYouXi/Compare.m; sourceTree = "<group>"; };
+		4EC2DAC11C05B3AB009FA0DA /* NumberOfGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberOfGame.h; path = ShuZiYouXi/NumberOfGame.h; sourceTree = "<group>"; };
+		4EC2DAC21C05B3AB009FA0DA /* NumberOfGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberOfGame.m; path = ShuZiYouXi/NumberOfGame.m; sourceTree = "<group>"; };
+		4EF641B81C0703C700B58908 /* Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compare.m; sourceTree = "<group>"; };
+		4EF641BA1C07069900B58908 /* Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Control.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,9 @@
 		4E4EE35E1BFC792300CB6167 = {
 			isa = PBXGroup;
 			children = (
+				4EF641B71C07035B00B58908 /* Compare */,
+				4EF641B61C07035500B58908 /* NumberControl */,
+				4EF641B51C07034100B58908 /* Radom */,
 				4E4EE3691BFC792300CB6167 /* ShuZiYouXi */,
 				4E4EE3831BFC792300CB6167 /* ShuZiYouXiTests */,
 				4E4EE3681BFC792300CB6167 /* Products */,
@@ -106,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				4E4EE3861BFC792300CB6167 /* ShuZiYouXiTests.m */,
+				4EF641B81C0703C700B58908 /* Compare.m */,
+				4EF641BA1C07069900B58908 /* Control.m */,
 				4E4EE3841BFC792300CB6167 /* Supporting Files */,
 			);
 			path = ShuZiYouXiTests;
@@ -117,6 +135,33 @@
 				4E4EE3851BFC792300CB6167 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EF641B51C07034100B58908 /* Radom */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2DABB1C05A66A009FA0DA /* Radom.h */,
+				4EC2DABC1C05A66A009FA0DA /* Radom.m */,
+			);
+			name = Radom;
+			sourceTree = "<group>";
+		};
+		4EF641B61C07035500B58908 /* NumberControl */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2DAC11C05B3AB009FA0DA /* NumberOfGame.h */,
+				4EC2DAC21C05B3AB009FA0DA /* NumberOfGame.m */,
+			);
+			name = NumberControl;
+			sourceTree = "<group>";
+		};
+		4EF641B71C07035B00B58908 /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2DABE1C05AF8C009FA0DA /* Compare.h */,
+				4EC2DABF1C05AF8C009FA0DA /* Compare.m */,
+			);
+			name = Compare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4EE3731BFC792300CB6167 /* ViewController.m in Sources */,
+				4EC2DAC31C05B3AB009FA0DA /* NumberOfGame.m in Sources */,
+				4EC2DABD1C05A66A009FA0DA /* Radom.m in Sources */,
+				4EC2DAC01C05AF8C009FA0DA /* Compare.m in Sources */,
 				4E4EE3701BFC792300CB6167 /* AppDelegate.m in Sources */,
 				4E4EE36D1BFC792300CB6167 /* main.m in Sources */,
 			);
@@ -230,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4EE3871BFC792300CB6167 /* ShuZiYouXiTests.m in Sources */,
+				4EF641BB1C07069900B58908 /* Control.m in Sources */,
+				4EF641B91C0703C700B58908 /* Compare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +466,7 @@
 				4E4EE38C1BFC792300CB6167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4EE38D1BFC792300CB6167 /* Build configuration list for PBXNativeTarget "ShuZiYouXiTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +475,7 @@
 				4E4EE38F1BFC792300CB6167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
