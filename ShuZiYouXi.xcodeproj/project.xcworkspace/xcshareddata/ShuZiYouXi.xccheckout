@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>12032FC0-86FE-4794-BA8B-AC20A92EC1E9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ShuZiYouXi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D82EE7F83A601D0A9270A926009E1A4A095ECE31</key>
 		<string>https://github.com/zhejuhao/shuziyouxi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ShuZiYouXi.xcodeproj/project.xcworkspace</string>
+	<string>ShuZiYouXi.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D82EE7F83A601D0A9270A926009E1A4A095ECE31</key>
